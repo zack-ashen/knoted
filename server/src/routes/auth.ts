@@ -5,8 +5,16 @@ const router = express.Router();
 
 const client = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
 
+const login = (uid: string) => {
+
+}
+
+const register = (uid: string) => {
+
+}
+
 // verify authentication token
-router.post('/', async (req, res) => {
+router.post('/google-auth', async (req, res) => {
   const { token } = req.body;
 
   const ticket = await client.verifyIdToken({

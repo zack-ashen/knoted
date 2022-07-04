@@ -1,0 +1,69 @@
+body {
+  background-color: #f2f6fc;
+  color: #060019;
+}
+
+.Landing {
+  width: 65%;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 0;
+}
+
+.appName {
+  margin: 0;
+}
+
+.launchButton {
+  border-radius: 0.8rem;
+  border: solid 0.15rem #060019;
+  padding: 1rem 1.75rem;
+}
+
+.heroSection {
+  margin: 15rem auto;
+  width: 50%;
+
+}
+
+.heroText {
+  text-align: center;
+  font-size: 3em;
+  font-weight: 300;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #D5D8EA;
+}
+
+.heroButtons {
+  margin: 1.75rem auto;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.launchButton {
+
+}
+
+.registerButton {
+  background-color: #36DEA3;
+  border: 0.15rem solid #32CE97;
+  width: fit-content;
+  padding: 1.3rem 2.8rem 1.3rem 2.8rem;
+  border-radius: 0.8rem;
+  color: white;
+  font-weight: 500;
+  font-size: 1.1em;
+  line-height: 0;
+}
